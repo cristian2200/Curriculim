@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	list-style: none;
+	font-family: 'Lora', serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	background: #585c68;
+}
+.main{
+	max-width: 1400px;
+	width: 100%; 
+	display: flex;
+	margin: 50px auto;
+
+}
+.header{
+	flex: 1 1;
+	flex-direction:column;
+	background: #369;
+	padding: 15px;
+	display: flex;
+	color: #fff;
+}
+i{
+	margin-right: 15px;
+}
+img{
+	display: flex;
+	width:150px; 
+	height:150px;
+	border-radius: 150px;
+}
+.foto{
+	justify-content: center;
+	display: flex;
+	
+}
+.curriculum{
+	margin-top: 30px;
+}
+.datos_per{
+	margin-top: 30px;
+
+}
+.section{
+	background: #fff;
+	flex: 3 1;
+	padding: 30px;	
+	
+}
+.educacion{
+	flex: 1 1 40%;
+	background: #fff;
+}
+.acerca{
+	flex: 1 1 40%;
+	background: #fff;
+}
+.experiencia{
+	flex: 1 1 40%;
+	background: #fff;
+}
+.datos_per p{
+	line-height: 35px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+h3{
+	margin-top: 10px;
+}
+p{
+	margin-top: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+h1{
+	font-size: 50;
+}
+hr {
+  background-color: #000;
+  height: 2px;
+}
+@media all and (max-width: 800px){
+	.main{
+		justify-content: center;
+	}
+}
+@media all and (max-width: 600px){
+	.main{
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+@media all and (max-width: 400px){
+	.main{
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+/*@media all and (max-width:800px){
+
+.section{
+
+	flex-direction: column;
+}
+.header{
+
+	flex-direction: column;
+	height: auto;
+}
+
+}
+@media all and (max-width:600px){
+.section{
+	flex-direction: column;
+	justify-content: center;
+}
+}
+@media all and (max-width:400px){
+	.aside{
+		flex-direction: column;
+	}
+
+
+}*/
